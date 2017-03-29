@@ -4,7 +4,7 @@ const dynamicImport = require('babel-plugin-syntax-dynamic-import')
 
 const config = {
   context: path.resolve(__dirname, 'src'),
-  entry: ['jquery', 'lodash', './app.js'],
+  entry: './app.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: 'dist/',

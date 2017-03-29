@@ -1,8 +1,6 @@
-import $ from 'jquery'
-
-function appendToBody() {
-  const root = $('#root')
-  root.append('<h1>new content</h1>');
+function appendToBody(i) {
+  const root = document.getElementById('root');
+  root.insertAdjacentHTML('beforeend', `<h1>new content ${i}</h1>`);
 }
 
 export { appendToBody };
