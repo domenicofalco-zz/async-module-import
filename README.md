@@ -1,5 +1,5 @@
 # IMPORT()
-playing around with async <a href="https://github.com/tc39/proposal-dynamic-import" target="_blank">IMPORT()</a> + webpack 2 / babel config
+playing around with async <a href="https://github.com/tc39/proposal-dynamic-import">IMPORT()</a> + webpack 2 through <a href="https://www.npmjs.com/package/babel-plugin-syntax-dynamic-import">syntax-dynamic-import</a>
 <br><br>
 
 1) npm install<br>
